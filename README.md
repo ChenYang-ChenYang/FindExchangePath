@@ -34,3 +34,9 @@ All the test cases in test report were verified on both Linux and Windows platfo
 
 # Test report
 Please refer to Test_Report.docx for all positive and negative test cases and result.
+
+# Thoughts about enchancement
+This exercise is based on requirement doc. Beyond that, some thoughts to enchance are:
+1. Let the program get price information automatically from each exchange, by calling their APIs
+2. Expose APIs to provide exchange rate path query, so it is easy for others to call, instead of using stdin and stdout
+3. ......
