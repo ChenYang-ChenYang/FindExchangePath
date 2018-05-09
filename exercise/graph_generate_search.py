@@ -46,7 +46,7 @@ def generate_graph():
                 for vertex in vertex_list:
                     temp_currency = vertex.split("_")[1]
                     count +=1
-                    # set weight to 1 if currency are the same, or set it to -1 which means there is no connection 
+                    # set weight to 1 if currency are the same, or set it to minus infinity which means there is no connection 
                     if(source_currency == temp_currency):
                         new_row_for_source_currency.append(1.0)
                         new_col_for_source_currency.append(1.0)
